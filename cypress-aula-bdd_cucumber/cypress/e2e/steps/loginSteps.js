@@ -1,14 +1,12 @@
 /// <reference types="cypress" />
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps"
 import { loginPage } from '../../pages/login.page';
-const users = require('../../fixtures/login.json')
 
-
-When("que eu acesse a página de autenticação do gov", () => {
+Given("que eu acesse a página de autenticação do gov", () => {
     loginPage.acessarGovBr()
 })
 
-And("eu digitar o usuário {string}", (cpf) => {
+When("eu digitar o usuário {string}", (cpf) => {
     loginPage.digitarCPF(cpf)
 })
 

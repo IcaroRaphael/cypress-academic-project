@@ -9,9 +9,9 @@ Feature: Login Geral
         And clicar em continuar
         Then deve ser exibida uma mensagem
         Examples:
-            | cpf              | text        |
-            | "12312312312"    | "CPF informado inválido. (ERL0000400)" |
-            | "12345678912"    | "CPF informado inválido. (ERL0000400)" |
-            | "78945678915"    | "CPF informado inválido. (ERL0000400)" |
-            | "78945678915"    | "CPF informado inválido. (ERL0000400)" |
-            | "78945678915"    | "CPF informado inválido. (ERL0000400)" |
+            | cpf              |
+            | "12312312312"    |
+            | "12345678912"    |
+            | "78945678915"    |
+            | "78945678915"    |
+            | "78945678915"    |
