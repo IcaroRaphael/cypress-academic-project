@@ -1,7 +1,7 @@
-Feature: Login Geral
+Feature: Login Invalido
     Feature Description: Login no Swag Labs
 
-    Background: Background name (opcional)
+    Background: Login Invalido
         Given que eu acesse a página de autenticação do gov
 
     Scenario Outline: Autenticação CPF Inválido
